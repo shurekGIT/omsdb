@@ -7,11 +7,6 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'layout' => 'index',
-    'modules' => [
-        'user' => [
-            'class' => 'dektrium\user\Module',
-        ],
-    ],
     'components' => [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
